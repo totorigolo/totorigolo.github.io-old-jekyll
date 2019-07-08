@@ -8,6 +8,8 @@
 
 @charset "utf-8";
 
+$danger-color: #ff0000 !default;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
